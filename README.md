@@ -6,9 +6,9 @@ LmLogits is a Python package for computing the logits of a language model, under
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install LmLogits.
 
-````bash
+```bash
 pip install lmlogits
-    ```
+```
 
 ## Usage
 
@@ -24,4 +24,3 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-````
