@@ -78,7 +78,7 @@ impl YaccRecognizer {
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn logits(_py: Python, m: &PyModule) -> PyResult<()> {
+fn lmlogits(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_class::<TokTrie>()?;
     m.add_class::<RegexRecognizer>()?;
     m.add_class::<YaccRecognizer>()?;
